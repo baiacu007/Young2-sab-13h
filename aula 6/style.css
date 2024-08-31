@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    font-family: "Open Sans", sans-serif;
+}
+
+
+body{
+    background-color: #ee607e;
+    background-image: linear-gradient(147deg, #e97878 0%, #a74141 74%);       
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    height: 60%;
+    width: 40%;
+    max-width: 30%;
+    display: grid;
+    place-items: center;
+    object-fit: cover;
+    row-gap: 5px;
+}
+
+main.container div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    }
+
+main.container div span{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+main.container div.botoes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+main.container div.botoes button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.atender{
+    background-color: green;
+}
+
+.recusar{
+    background-color: red;
+}
+
+.atender:hover{
+    background-color: rgb(0, 48, 0);
+    transition: background 0.5s ease-in-out;
+}
+
+.recusar:hover{
+    background: rgb(95, 3, 3);
+    transition: background 0.5s ease-in-out;
+}
