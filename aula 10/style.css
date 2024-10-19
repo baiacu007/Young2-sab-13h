@@ -63,11 +63,12 @@ input[type="radio"]{
 }
 
 .correta{
-    color:green;
+    color:rgb(0, 182, 15);
     font-weight: bold;
 }
 
 .incorreta{
     color:red;
     font-style: italic;
+
 }
