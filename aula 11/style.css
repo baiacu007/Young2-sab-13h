@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0;
@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Sour Gummy", sans-serif;
     background-color: rgb(190, 190, 190);
 }
 
@@ -95,10 +95,91 @@ section.section2 div.galeria{
 
 div.galeria img{
     height: 200px;
+    width: 200px;
     object-fit: cover;
 }
 
 img.emoji{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
+}
+
+section.section3{
+    display: grid;
+    place-items: center;
+}
+
+section.section3 div.formulario{
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+form{
+    display: grid;
+    gap: 10px;
+}
+
+input, textarea{
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(102, 101, 101);
+    color: white;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+
+}
+
+footer{
+    display: grid;
+    place-items: center;
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+a.top-page{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+}
+
+a.top-page:hover{
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
