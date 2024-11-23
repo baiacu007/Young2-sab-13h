@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+    list-style: none;
+    gap: 30px;
+}
+body{
+    background-color: lightblue;
+    font-style: 'Sour Gummy', sans-serif;
+    display: flex;
+    justify-content: start;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    padding: 30px;
+}
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+
+div.cartao{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
