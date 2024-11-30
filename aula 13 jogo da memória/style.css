@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+    list-style: none;
+}
+div.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    transition: transform 1s ease;
+    
+}
+
+
+body{
+    font-family: "Cedarville Cursive", cursive;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30;
+}
+
+h1{
+    font-size: 28px;
+
+}
+
+div.container{
+    display: grid;
+    gap: 15px;
+}
