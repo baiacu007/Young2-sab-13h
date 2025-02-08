@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(147deg, #460101 0%, rgb(0, 0, 0) 74%);
+    
+}
+
+.box-toDoList{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 20);
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 10px;
+    
+}
+
+.list-task{
+    height: 75%;
+}
+
+button{
+    background-color: rgb(21, 111, 255);
+    color: #ffffff;
+    font-size: 1rem;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
